@@ -1,0 +1,602 @@
+{
+  "name": "Card Trick",
+  "intents": [],
+  "entities": [
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "cards",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ace of Hearts",
+          "synonyms": [
+            "bedroom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Five of Hearts",
+          "synonyms": [
+            "industry"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Four of Hearts",
+          "synonyms": [
+            "manufacturer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Three of Hearts",
+          "synonyms": [
+            "contribution"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Two of Hearts",
+          "synonyms": [
+            "election"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "King of Clubs",
+          "synonyms": [
+            "variety"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Queen of Clubs",
+          "synonyms": [
+            "recognition"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jack of Clubs",
+          "synonyms": [
+            "magazine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ten of Clubs",
+          "synonyms": [
+            "expression"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nine of Clubs",
+          "synonyms": [
+            "understanding"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Eight of Clubs",
+          "synonyms": [
+            "inflation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Seven of Clubs",
+          "synonyms": [
+            "alcohol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Six of Clubs",
+          "synonyms": [
+            "menu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Five of Clubs",
+          "synonyms": [
+            "conversation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Four of Clubs",
+          "synonyms": [
+            "perception"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Three of Clubs",
+          "synonyms": [
+            "percentage"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Two of Clubs",
+          "synonyms": [
+            "operation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ace of Clubs",
+          "synonyms": [
+            "government"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "King of Diamonds",
+          "synonyms": [
+            "importance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Queen of Diamonds",
+          "synonyms": [
+            "piano"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jack of Diamonds",
+          "synonyms": [
+            "power"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ten of Diamonds",
+          "synonyms": [
+            "confusion"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nine of Diamonds",
+          "synonyms": [
+            "improvement"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Eight of Diamonds",
+          "synonyms": [
+            "leader"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Seven of Diamonds",
+          "synonyms": [
+            "membership"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Six of Diamonds",
+          "synonyms": [
+            "employment"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Five of Diamonds",
+          "synonyms": [
+            "tale"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Four of Diamonds",
+          "synonyms": [
+            "measurement"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Three of Diamonds",
+          "synonyms": [
+            "attitude"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Two of Diamonds",
+          "synonyms": [
+            "sister"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ace of Diamonds",
+          "synonyms": [
+            "article"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "King of Spades",
+          "synonyms": [
+            "temperature"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Queen of Spades",
+          "synonyms": [
+            "woman"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jack of Spades",
+          "synonyms": [
+            "unit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ten of Spades",
+          "synonyms": [
+            "efficiency"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nine of Spades",
+          "synonyms": [
+            "appearance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Eight of Spades",
+          "synonyms": [
+            "medicine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Seven of Spades",
+          "synonyms": [
+            "speaker"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Six of Spades",
+          "synonyms": [
+            "criticism"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Five of Spades",
+          "synonyms": [
+            "fishing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Four of Spades",
+          "synonyms": [
+            "uncle"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Three of Spades",
+          "synonyms": [
+            "elevator"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Two of Spades",
+          "synonyms": [
+            "poetry"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ace of Spades",
+          "synonyms": [
+            "department"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "King of Hearts",
+          "synonyms": [
+            "statement"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Queen of Hearts",
+          "synonyms": [
+            "computer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jack of Hearts",
+          "synonyms": [
+            "income"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ten of Hearts",
+          "synonyms": [
+            "painting"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nine of Hearts",
+          "synonyms": [
+            "stranger"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Eight of Hearts",
+          "synonyms": [
+            "river"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Seven of Hearts",
+          "synonyms": [
+            "explanation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Six of Hearts",
+          "synonyms": [
+            "courage"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Hello"
+      },
+      "parent": "slot_2_1551983331154",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1551983331154",
+      "previous_sibling": "handler_3_1551983331154"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1551983331154",
+      "context": {
+        "person": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_3_1551983331154"
+    },
+    {
+      "type": "slot",
+      "parent": "Welcome",
+      "variable": "$person",
+      "dialog_node": "slot_2_1551983331154"
+    },
+    {
+      "type": "standard",
+      "title": "Reveal Card",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<p>Now<break strength='strong'></break>concentrate on your card.</p>"
+              },
+              {
+                "text": "<p>That's perfect, you are doing wonderful.<break strength='weak'></break>I just need you to imagine your card.</p>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<p><break time='2s'></break>I'm nearly there<break strength='weak'></break>Keep thinking,<break strength='weak'></break> I almost have it.</p>"
+              },
+              {
+                "text": "<p><break time='2s'></break>I'm starting to get a picture now.<break strength='weak'></break>Concentrate just a little harder.</p>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<p><break time='2s'></break>I got it!<break strength='strong'></break> Your card is the @cards</p>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1552073550980",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1552074938465"
+      },
+      "conditions": "@cards",
+      "dialog_node": "node_1_1556050699426"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1552074938465",
+      "dialog_node": "slot_3_1552075096407"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1552075096407",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1552075096407",
+      "previous_sibling": "handler_4_1552075096407"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1552075096407",
+      "event_name": "input",
+      "dialog_node": "handler_4_1552075096407"
+    },
+    {
+      "type": "standard",
+      "title": "End Call",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Goodbye!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "vgwHangUp": "yes"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1552074938465",
+      "digress_out": "allow_all",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": "Gather Password",
+      "output": {
+        "generic": []
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1556050699426"
+      },
+      "conditions": "@cards",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1552073550980",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That didn't sound like the right password. Can you say it again?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1552073550980"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1552073550980"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<p><s>Hello, I am Kelly's magicians assistant</s></p>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "I assume Kelly told you the password. What did he tell you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1552073550980"
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Welcome",
+      "digress_out": "allow_all"
+    }
+  ],
+  "workspace_id": "04a38b95-801d-4ca2-9103-479f8b84382d",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
